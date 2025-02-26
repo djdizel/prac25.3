@@ -91,13 +91,13 @@ namespace prac25._3
             Year = year;
             Numpage = numpage;
             Circulation = circulation;
-            Rating = 0;
+            Rating = 0; 
             Comment = string.Empty;
         }
 
         public override string ToString()
         {
-            return $"Данные о книге:{Author}\n{Title}\n{Publishing}\n{Year}\n{Numpage}\n{Circulation} \nТираж:{Rating},{Comment}";
+            return $"Данные о книге:\nАвтор: {Author}\nНазвание: {Title}\nИздательство: {Publishing}\nГод издания: {Year}\nКоличество страниц: {Numpage}\nТираж: {Circulation}, Рейтинг: {Rating}\nКомментарий: {Comment}";
         }
     }
 }
